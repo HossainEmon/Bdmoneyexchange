@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #182C61;
+}
+.bg-color-custom{
+    background: #a29bfe;
+}
+.card_custom{
+    border-bottom: 5px solid red;
+}
+
+.navbar-collapse .navbar-nav li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-collapse .navbar-nav li:hover{
+    background: #8e87e5;
+}
+.news_width{
+    width: 95.5%;
+}
+.news_width li a{
+    font-size: 20px;
+}
+
+/*--------Main going here---------*/
+.send_method{}
+.exchange i{
+    font-size: 30px;
+}
+.receive_method{}
+/*--------Main End here---------*/
+
+/*--------Owl Carousel Start here---------*/
+.parent-box{
+     display: flex;
+ }
+ .item{
+     margin: 10px;
+ }
+/*--------Owl Carousel End here---------*/
+
+
+
+/*========get_in_touch start=====*/
+.get_in_touch{
+/*    height: 1000px;   */
+    padding: 60px;
+}
+.get_in_touch_text{
+    text-align: center;
+    color: white;
+    
+}
+.get_in_touch_text h1{
+    font-family: cursive;
+    font-size: 60px;
+}
+.get_in_touch_text p{
+    font-size: 18px;
+    line-height: 60px;
+}
+.get_in_touch_form{
+    text-align: center;    
+}
+.get_in_touch>.get_in_touch_form>input[type="text"]{
+    padding: 40px;
+}
+
+ input, select {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: 15px 82px;
+    border-radius: 5px;
+}
+textarea{
+/*    width: 630px;*/
+    text-align: center;
+/*    height: 150px;*/
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    background: #fd2626;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 30px;
+}
+input[type="submit"]:hover{
+    background: #ff0808;
+    color: yellow;
+}
+
+.footer {
+/*	height: 205px;*/
+/*	width: 1170px;*/
+	background: #191414;
+    margin: auto;
+}
+.footer_text{
+    border-top: 5px solid red;    
+}
+
+.for_you{
+/*    height: 100%;*/
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 5px solid red;
+
+}
+.for_you h2{
+    color: red;
+    line-height: 60px;
+}
+.for_you p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about_neve{
+/*    height: 100%;*/
+    text-align: center;
+    padding: 20px 2px;
+    border-bottom: 5px solid #17ba49;
+}
+.about_neve h2{
+    color: #17ba49;
+    line-height: 60px;
+}
+.about_neve p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.find_us{
+/*    height: 100%;*/
+    text-align: center;
+    padding: 20px 2px;
+    border-bottom: 5px solid #c11ba7;
+}
+.find_us h2{
+    color: #c11ba7;
+    line-height: 60px;
+}
+.find_us p{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+.keep_touch{
+/*    height: 100%;*/
+    text-align: center;
+    padding: 20px 2px;
+    border-bottom: 5px solid #e39d18;
+}
+.keep_touch h2{
+    color: #e39d18;
+    line-height: 60px;
+}
+.keep_touch>.icon{}
+.keep_touch>.icon i{
+    font-size: 40px;
+    line-height: 30px;
+    color: #e39d18;
+    margin: 5px;
+    line-height: 60px;    
+}
+/*========get_in_touch end=====*/
+
+
+/*-----Responsive Going here------*/
+@media screen and (max-width: 992px) {
+  #login {    
+    margin-bottom: 5px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #login {    
+    margin-bottom: 5px;
+  }
+}
+/*-----Responsive End here------*/
