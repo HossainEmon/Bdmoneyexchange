@@ -22,3 +22,14 @@ Route::post('admin/update/reset', 'Admin\ResetPasswordController@reset')->name('
 Route::get('/admin/Change/Password','AdminController@ChangePassword')->name('admin.password.change');
 Route::post('/admin/password/update','AdminController@Update_pass')->name('admin.password.update'); 
 Route::get('admin/logout', 'AdminController@logout')->name('admin.logout');
+
+/////---------admin section-------------------
+//Currency rates-----------
+Route::get('admin/currencyrates','Admin\CurrencyrateController@currencyrate')->name('currencyrates');
+Route::post('admin/store/currency','Admin\CurrencyrateController@StoreCurrency')->name('store.currency');
+Route::get('delete/currency/{id}','Admin\CurrencyrateController@DeleteCurrency');
+Route::get('edit/currency/{id}','Admin\CurrencyrateController@EditCurrency');
+Route::post('update/currency/{id}','Admin\CurrencyrateController@UpdateCurrency');
+
+
+
